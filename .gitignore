@@ -1,0 +1,17 @@
+data/raw/
+data/processed/
+data/patches/
+data/embeddings/
+outputs/checkpoints/
+outputs/logs/
+*.pt
+*.pth
+*.ckpt
+*.h5ad
+*.h5
+*.svs
+*.tif
+*.tiff
+.env
+__pycache__/
+.ipynb_checkpoints/

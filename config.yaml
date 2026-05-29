@@ -1,0 +1,28 @@
+project_name: HistoGeneAlign
+
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  patch_dir: data/patches
+  embedding_dir: data/embeddings
+  output_dir: outputs
+
+data:
+  dataset_repo: MahmoodLab/hest
+  subset_ids:
+    - TENX95
+  patch_size: 224
+  top_hvg: 2000
+
+model:
+  image_encoder: UNI
+  freeze_image_encoder: true
+  embedding_dim: 512
+  projection_dim: 256
+
+training:
+  batch_size: 128
+  epochs: 20
+  learning_rate: 0.0001
+  temperature: 0.07
+  seed: 42
