@@ -1,0 +1,24 @@
+{
+  "sample_id": "TENX95",
+  "n_test": 1130,
+  "image_to_gene": {
+    "Recall@1": 0.08584070796460178,
+    "Recall@5": 0.2929203539823009,
+    "Recall@10": 0.4150442477876106,
+    "MedianRank": 17.0,
+    "MRR": 0.19008870837581268
+  },
+  "gene_to_image": {
+    "Recall@1": 0.08584070796460178,
+    "Recall@5": 0.2743362831858407,
+    "Recall@10": 0.384070796460177,
+    "MedianRank": 17.0,
+    "MRR": 0.18599352312226894
+  },
+  "random_baseline": {
+    "Recall@1": 0.0008849557522123894,
+    "Recall@5": 0.004424778761061947,
+    "Recall@10": 0.008849557522123894
+  },
+  "interpretation_note": "Model retrieval should be compared against random Recall@K. For a test split of size N, random Recall@1 is approximately 1/N."
+}

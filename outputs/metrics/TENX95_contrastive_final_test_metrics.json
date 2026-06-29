@@ -1,0 +1,21 @@
+{
+  "sample_id": "TENX95",
+  "image_encoder": "resnet50_imagenet1k_v2_frozen",
+  "best_epoch": 17,
+  "test_loss": 1.9760591201022664,
+  "image_to_gene_R@1": 0.08584070950746536,
+  "image_to_gene_R@5": 0.2929203510284424,
+  "image_to_gene_R@10": 0.41504424810409546,
+  "image_to_gene_MedianRank": 17.0,
+  "image_to_gene_MeanRank": 61.44955825805664,
+  "image_to_gene_MRR": 0.19008870422840118,
+  "gene_to_image_R@1": 0.08584070950746536,
+  "gene_to_image_R@5": 0.2743362784385681,
+  "gene_to_image_R@10": 0.3840707838535309,
+  "gene_to_image_MedianRank": 17.0,
+  "gene_to_image_MeanRank": 60.03628158569336,
+  "gene_to_image_MRR": 0.1859935224056244,
+  "mean_R@1": 0.08584070950746536,
+  "mean_R@5": 0.28362831473350525,
+  "mean_R@10": 0.39955751597881317
+}
